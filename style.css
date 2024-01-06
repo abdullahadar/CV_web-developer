@@ -7,23 +7,24 @@ body {
 nav {
     display: flex;
     color: var(--Dark-02, #474747);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
+    font-size: small;
     justify-content: space-between;
+
 
 }
 
 nav>ul {
     display: flex;
     align-items: center;
-    font-style: normal;
+    font-size: 20px;
+    font-style: normal
 }
 
 nav li {
     list-style: none;
     margin-right: 51px;
+    font-size: medium;
 }
 
 .nav-title {
@@ -52,4 +53,8 @@ nav li {
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+}
+header{
+    background: #FFF8F3;
+
 }
