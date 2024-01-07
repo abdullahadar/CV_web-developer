@@ -122,19 +122,34 @@ main section {
     margin-top: 130px;
 
 }
+.list{
+    text-align: justify;
+    margin: 0px;
+
+
+
+}
 
 
 
 /* about section style */
 
 .about {
-    padding: 130px;
+    padding: 30px;
     border-radius: 10px;
     margin: 130px;
     background: #FFF8F3;
 
+}
+.p-style{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    background: #FFF8F3;
+    padding-bottom: 60px;
 
 }
+
 
 main {
     max-width: 1140px;
@@ -155,11 +170,17 @@ main {
 
 #what-can-i {
 
-    padding: 30px 150x;
+    margin: 20px;
+    
 }
 
-.skills-contenar {
+.skills-contenar{
+    max-width: 1440px;
     display: flex;
+    gap: 10px;
+   
+  
+
 }
 
 .skill {
